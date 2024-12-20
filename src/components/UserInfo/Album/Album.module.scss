@@ -1,0 +1,25 @@
+.album {
+  width: fit-content;
+  border: 2px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 20px;
+  max-height: fit-content;
+  transition: 0.1s;
+
+  & > * {
+    margin: 5px;
+  }
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

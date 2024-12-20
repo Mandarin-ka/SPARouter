@@ -1,0 +1,22 @@
+.user {
+  padding: 10px;
+  border: 1px dashed black;
+  width: fit-content;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.08s;
+  color: black;
+
+  &:hover {
+    background-color: black;
+    text-decoration: none;
+
+    color: white;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
